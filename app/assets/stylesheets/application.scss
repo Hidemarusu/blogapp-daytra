@@ -1,3 +1,8 @@
+@import 'header';
+@import 'tabs';
+@import 'variables';
+@import 'card';
+
 html {
   word-spacing: 1px;
   -ms-text-size-adjust: 100%;
@@ -17,9 +22,9 @@ html {
 
 body {
   height: 100%;
-  background-color: #f1f5f7;
+  background-color: $base-bg-color;
   font-size: 1em;
-  color: #616161;
+  color: $text-base-color;
 }
 
 .container {
